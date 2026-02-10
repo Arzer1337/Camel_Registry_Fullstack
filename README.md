@@ -3,9 +3,10 @@
 <br>
 Ez a projekt egy Full-Stack webapp, amely tevék adatainak kezelésére (CRUD műveletek) szolgál. A megoldás egy .NET 8 alapú Minimal API backendet és egy Angular 17 alapú frontedet tartalmaz.
 <br>
+<br>
+
 🚀 Stack
 
-<br>
 <br>
 Backend 🗄️
 <br>
@@ -78,14 +79,21 @@ dotnet restore<br>
 dotnet run<br>
 A backend alapértelmezetten a http://localhost:5121 címen indul el. Swagger dokumentáció: http://localhost:5121/swagger
 <br>
+<br>
+<br>
+
  Frontend Indítása 
 Nyiss egy új terminált, és lépj a frontend mappába:
-
+<br>
+<br>
 <br>
 cd camel-frontend<br>
 npm install<br>
 npm start<br>
+<br>
+
 A frontend a http://localhost:4200 címen érhető el.
+<br>
 <br>
 ✅ Tesztek Futtatása
 A projekt tartalmaz Unit teszteket mind a backend, mind a frontend oldalon.
@@ -95,6 +103,7 @@ Backend tesztek (xUnit):
 <br>
 cd CamelRegistry.Tests<br>
 dotnet test<br>
+<br>
 Frontend tesztek (Jasmine):
 
 <br>
