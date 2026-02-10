@@ -65,14 +65,14 @@ A projekt futtatásához szükség van a .NET 8 SDK-ra és a Node.js-re.
 <br>
 
  A Repository klónozása
-Bash <br>
+ <br>
 git clone https://github.com/FELHASZNALONEV/camel_registry_fullstack.git<br>
 cd camel-registry<br>
 
  Backend Indítása (ASP.NET Core)
 A backend automatikusan létrehozza az camels.db SQLite adatbázist induláskor.
 
-Bash<br>
+<br>
 cd CamelRegistry<br>
 dotnet restore<br>
 dotnet run<br>
@@ -81,7 +81,7 @@ A backend alapértelmezetten a http://localhost:5121 címen indul el. Swagger do
  Frontend Indítása 
 Nyiss egy új terminált, és lépj a frontend mappába:
 
-Bash<br>
+<br>
 cd camel-frontend<br>
 npm install<br>
 npm start<br>
@@ -92,11 +92,11 @@ A projekt tartalmaz Unit teszteket mind a backend, mind a frontend oldalon.
 <br>
 Backend tesztek (xUnit):
 
-Bash<br>
+<br>
 cd CamelRegistry.Tests<br>
 dotnet test<br>
 Frontend tesztek (Jasmine):
 
-Bash<br>
+<br>
 cd camel-frontend<br>
 npm test
