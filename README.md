@@ -10,6 +10,7 @@ Ez a projekt egy Full-Stack webapp, amely tevék adatainak kezelésére (CRUD m�
 <br>
 Backend 🗄️
 <br>
+<br>
 Keretrendszer: ASP.NET Core 8 (.NET 8)
 
 Architektúra: Minimal API 
