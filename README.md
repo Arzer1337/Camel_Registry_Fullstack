@@ -12,6 +12,7 @@ Backend 🗄️
 <br>
 <br>
 Keretrendszer: ASP.NET Core 8 (.NET 8)
+<br>
 
 Architektúra: Minimal API 
 
