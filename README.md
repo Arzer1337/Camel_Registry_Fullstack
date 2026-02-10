@@ -1,10 +1,15 @@
 
 🐫 Teve Nyilvántartó (Camel Registry)
+<br>
 Ez a projekt egy Full-Stack webapp, amely tevék adatainak kezelésére (CRUD műveletek) szolgál. A megoldás egy .NET 8 alapú Minimal API backendet és egy Angular 17 alapú frontedet tartalmaz.
 
 
 🚀 Stack
+
+
+<br>
 Backend 🗄️
+
 Keretrendszer: ASP.NET Core 8 (.NET 8)
 
 Architektúra: Minimal API 
