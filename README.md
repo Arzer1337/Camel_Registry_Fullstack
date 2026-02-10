@@ -64,27 +64,27 @@ Hibaüzenetek: User friendly visszajelzés, ha a backend nem elérhető.
 A projekt futtatásához szükség van a .NET 8 SDK-ra és a Node.js-re.
 <br>
 
-1. A Repository klónozása
-Bash
-git clone https://github.com/FELHASZNALONEV/camel_registry_fullstack.git
-cd camel-registry
-<br>
-3. Backend Indítása (ASP.NET Core)
+ A Repository klónozása
+Bash <br>
+git clone https://github.com/FELHASZNALONEV/camel_registry_fullstack.git<br>
+cd camel-registry<br>
+
+ Backend Indítása (ASP.NET Core)
 A backend automatikusan létrehozza az camels.db SQLite adatbázist induláskor.
 
-Bash
-cd CamelRegistry
-dotnet restore
-dotnet run
+Bash<br>
+cd CamelRegistry<br>
+dotnet restore<br>
+dotnet run<br>
 A backend alapértelmezetten a http://localhost:5121 címen indul el. Swagger dokumentáció: http://localhost:5121/swagger
 <br>
-3. Frontend Indítása 
+ Frontend Indítása 
 Nyiss egy új terminált, és lépj a frontend mappába:
 
-Bash
-cd camel-frontend
-npm install
-npm start
+Bash<br>
+cd camel-frontend<br>
+npm install<br>
+npm start<br>
 A frontend a http://localhost:4200 címen érhető el.
 <br>
 ✅ Tesztek Futtatása
@@ -92,11 +92,11 @@ A projekt tartalmaz Unit teszteket mind a backend, mind a frontend oldalon.
 <br>
 Backend tesztek (xUnit):
 
-Bash
-cd CamelRegistry.Tests
-dotnet test
+Bash<br>
+cd CamelRegistry.Tests<br>
+dotnet test<br>
 Frontend tesztek (Jasmine):
 
-Bash
-cd camel-frontend
+Bash<br>
+cd camel-frontend<br>
 npm test
