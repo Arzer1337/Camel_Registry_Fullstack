@@ -1,0 +1,28 @@
+body {
+    background-color: #e8dcb5; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.table {
+    border-radius: 15px; 
+    overflow: hidden;    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: white; 
+    border-collapse: separate; 
+    border-spacing: 0;
+}
+
+
+.table thead th {
+    background-color: #c2b280; 
+    color: white;
+    border: none;
+    padding: 15px; 
+}
+
+
+.table tbody td {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 12px;
+}
